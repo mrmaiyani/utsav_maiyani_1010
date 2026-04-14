@@ -48,83 +48,6 @@ project-folder/
 │── script.js      # Interactivity and animations
 ```
 
----
-
-## ⚙️ Setup & Usage
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-### 2. Run Locally
-
-Open the project in your browser:
-
-```bash
-open index.html
-```
-
----
-
-## 📬 Contact Form Integration (Formspree)
-
-This project uses **Formspree** to handle contact form submissions without a backend.
-
-### Steps:
-
-1. Create an account at: [https://formspree.io](https://formspree.io)
-2. Create a new form
-3. Copy your endpoint URL
-
-Example:
-
-```
-https://formspree.io/f/yourID
-```
-
-4. Update your HTML form:
-
-```html
-<form action="https://formspree.io/f/yourID" method="POST">
-```
-
-5. Remove JavaScript form prevention:
-
-```js
-e.preventDefault();
-```
-
----
-
-## 🌍 Deployment
-
-This project can be deployed easily using:
-
-* GitHub Pages
-* Netlify
-* Vercel
-
-### GitHub Pages Deployment
-
-1. Push project to GitHub
-2. Go to **Repository Settings → Pages**
-3. Select branch: `main`
-4. Save and deploy
-
----
-
-## 📌 Highlights for Recruiters
-
-* Clean and structured codebase
-* Real-world portfolio use case
-* Demonstrates both design and logic
-* Ready for production deployment
-* Scalable for future enhancements
-
----
 
 ## 👤 Author
 
@@ -134,19 +57,3 @@ Data Science & Analytics Student
 
 * LinkedIn: [https://www.linkedin.com/in/utsav-maiyani-a463a9374](https://www.linkedin.com/in/utsav-maiyani-a463a9374)
 * GitHub: [https://github.com/mrmaiyani](https://github.com/mrmaiyani)
-
----
-
-## 📄 License
-
-This project is open-source and available for educational and personal use.
-
----
-
-## ⭐ Feedback
-
-If you find this project useful, consider:
-
-* Starring ⭐ the repository
-* Sharing with others
-* Providing feedback for improvement
